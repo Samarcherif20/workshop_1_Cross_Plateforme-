@@ -24,6 +24,7 @@ class WaitingRoomCard extends StatelessWidget {
               style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
+            // Ajout du widget timestamp
             const WaitingRoomTimestamp(),
           ],
         ),
